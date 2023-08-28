@@ -1,0 +1,290 @@
+    1  wget www.github.com
+    2  passwd
+    3  passwd
+    4  git --version
+    5  cd ~/Desktop
+    6  pwd
+    7  cd ~/Desktop
+    8  cd home
+    9  cd
+   10  pwd
+   11  mkdir ws1
+   12  cd ws1/
+   13  git init
+   14  touch angie23fa@sjsu.txt
+   15  ls
+   16  git status
+   17  git add <file1>
+   18  git add <angie23fa@sjsu.txt>
+   19  git status
+   20  git add <angie23fa@sjsu.txt>
+   21  git add angie23fa@sjsu.txt
+   22  git status
+   23  git commit -m "This is my first commit!"
+   24  git config --global user.email "angie.avalosjoel@sjsu.edu"
+   25  git config --global user.name "Angie Avalos Joel"
+   26  git commit -m "This is my first commit!"
+   27  git checkout -b my-first-branch
+   28  git branch
+   29  git remote add origin https://github.com/angieavalosjoel/newrepo.git
+   30  git push -u origin master
+   31  git remote add origin https://github.com/angieavalosjoel/newrepo.git
+   32  git git branch -M master
+   33  git branch -M master
+   34  git push -u origin master
+   35  git remote add origin https://github.com/angieavalosjoel/newrepo.git
+   36  git branch -M main
+   37  git push -u origin main
+   38  git push -u origin master
+   39  git remote add origin https://github.com/angieavalosjoel/newrepo.git
+   40  git push -u origin master
+   41  git remote add origin https://github.com/angieavalosjoel/newrepo.git
+   42  git push -u origin main
+   43  git remote add origin https://github.com/angieavalosjoel/newrepo.git
+   44  git push -u origin main
+   45  git push origin my-first-branch
+   46  git push origin my-new-branch
+   47  git commit -m "This is my first commit!"
+   48  git commit -m "This is my first commit"
+   49  git push origin my-first-branch
+   50  git log
+   51  git push origin master
+   52  git push origin main
+   53  git push origin my-first-branch
+   54  git push origin master
+   55  git push origin main
+   56  git branch
+   57  git checkout my-first-branch
+   58  git branch
+   59  git log
+   60  git branch
+   61  git checkout -b my-first-branch
+   62  git log
+   63  git push -u origin my-first-branch
+   64  git branch
+   65  git checkout main
+   66  git log
+   67  git reset --hard 89a9cee1558067d53882774e4e2e8c0288d79046
+   68  git log
+   69  git push origin HEAD --force
+   70  git branch
+   71  git log
+   72  git reset --hard HEAD~1
+   73  git log
+   74  git branch
+   75  git status
+   76  pwd
+   77  cd ws1
+   78  pwd
+   79  ls
+   80  git status
+   81  pwd
+   82  git branch
+   83  git log
+   84  git push origin HEAD --force
+   85  git log
+   86  git reset --hard HEAD~1
+   87  git log
+   88  git branch
+   89  git checkout my-first-branch
+   90  git log
+   91  git branch
+   92  git log
+   93  git checkout main
+   94  git log
+   95  git revert 89a9cee1558067d53882774e4e2e8c0288d79046
+   96  pwd
+   97  cd ws1
+   98  ls
+   99  git status
+  100  git log
+  101  git push
+  102  git branch
+  103  git log
+  104  git status
+  105  git restore --staged angie23fa@sjsu.txt
+  106  git status
+  107  git log
+  108  git rebase -i 89a9cee1558067d53882774e4e2e8c0288d79046^
+  109  git log
+  110  git restore angie23fa@sjsu.txt
+  111  git status
+  112  git log
+  113  git rebase -i 89a9cee1558067d53882774e4e2e8c0288d79046^
+  114  git log
+  115  ls
+  116  rm -rf repo.git
+  117  git branch
+  118  git log
+  119  git status
+  120  rm -rf ws1/.git
+  121  git status
+  122  cd main
+  123  cd angie23fa@sjsu
+  124  rm -rf repo/.git
+  125  git status
+  126  git log
+  127  cd
+  128  rm -rf ws1/.git
+  129  cd ws1
+  130  rm -rf repo/.git
+  131  pwd
+  132  git log
+  133  git status
+  134  git branch
+  135  git init
+  136  touch angie23fa.txt
+  137  ls
+  138  git status
+  139  git branch
+  140  git rm angie23fa.txt
+  141  get clean -n
+  142  git clean -n
+  143  git clean -nd
+  144  git clean -f
+  145  git status
+  146  ls
+  147  git branch
+  148  touch angie23fa@sjsu
+  149  ls
+  150  git status
+  151  git add angie23fa@sjsu
+  152  git status
+  153  git commit -m "This is my first commit!"
+  154  git branch
+  155  git checkout -b my-first-branch
+  156  git branch
+  157  git remote add origin git@github.com:angieavalosjoel/newrepo.git
+  158  git branch -M main
+  159  git push -u origin main
+  160  git status
+  161  git remote add origin https://github.com/angieavalosjoel/mynewrepo.git
+  162  git push -u origin master
+  163  git remote add origin https://github.com/angieavalosjoel/mynewrepo.git
+  164  git push -u origin main
+  165  rm -rf repo/.git
+  166  git status
+  167  git log
+  168  pwd
+  169  git log
+  170  rm -rf mynewrepo/.git
+  171  git log
+  172  cd
+  173  rm -rf ws1/.git
+  174  cd ws1
+  175  rm -rf mynewrepo/.git
+  176  git log
+  177  git status
+  178  ls
+  179  git status
+  180  git branch
+  181  git init
+  182  ls
+  183  git status
+  184  git add angie23fa@sjsu
+  185  git status
+  186  git commit -m "This is my first commit"
+  187  git branch
+  188  git checkout -b my-new-branch
+  189  git branch
+  190  git remote add origin https://github.com/angieavalosjoel/myfirstrepo.git
+  191  git push -u origin master
+  192  git push origin my-new-branch
+  193  git status
+  194  git log
+  195  git checkout master
+  196  git log
+  197  cd
+  198  rm -rf ws1/.git
+  199  cd ws1
+  200  rmm -rf myfirstrepo/.git
+  201  rm -rf myfirstrepo/.git
+  202  git log
+  203  ls
+  204  git init
+  205  ls
+  206  git status
+  207  git add angie23fa@sjsu
+  208  git status
+  209  git commit -m "First commit"
+  210  git branch
+  211  git checkout -b my-new-branch
+  212  git branch
+  213  git checkout master
+  214  git branch
+  215  git remote add origin https://github.com/angieavalosjoel/myfirstrepo.git
+  216  git push -u origin master
+  217  git push origin my-new-branch
+  218  cd
+  219  rm -rf ws1/.git
+  220  cd ws1
+  221  rm -rf myfirstrepo/.git
+  222  git log
+  223  ls
+  224  git clean -n
+  225  git status
+  226  git init
+  227  git status
+  228  git clean -n
+  229  git clean -f
+  230  ls
+  231  git branch
+  232  touch angie23fa@sjsu.txt
+  233  ls
+  234  git status
+  235  git add angie23fa@sjsu.txt
+  236  git status
+  237  git branch
+  238  git commit -m "First commit"
+  239  git checkout -b my-new-branch
+  240  git branch
+  241  git status
+  242  git checkout master
+  243  git status
+  244  git log
+  245  git checkout my-new-branch
+  246  git log
+  247  git commit -m "Second commit"
+  248  git log
+  249  touch newfile.txt
+  250  ls
+  251  git status
+  252  git add newfile.txt
+  253  git status
+  254  git commit -m "Second commit"
+  255  git log
+  256  git checkout master
+  257  git log
+  258  git remote add origin https://github.com/angieavalosjoel/myfirstrepo.git
+  259  git push -u origin master
+  260  git push origin my-new-branch
+  261  git pull origin master
+  262  git log
+  263  git status
+  264  mkdir ws1
+  265  cd ws1
+  266  git init
+  267  history > cmds.log
+  268  ls
+  269  git status
+  270  git add cmds.log
+  271  git status
+  272  git commit -m adding cmds.log file
+  273  git status
+  274  git commit -m "adding cmds.log file"
+  275  git status
+  276  git remote add origin https://github.com/angieavalosjoel/cs131.git
+  277  git push -u origin master
+  278  git remote add origin https://github.com/angieavalosjoel/cs131.git
+  279  git remote
+  280  git remote remove origin
+  281  git remote
+  282  git remote add origin https://github.com/angieavalosjoel/cs131.git
+  283  git push -u origin master
+  284  git status
+  285  git log
+  286  git clean -n
+  287  git clean -nd
+  288  rm -rf .git
+  289  git log
+  290  history > cmds.log
