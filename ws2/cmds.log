@@ -1,0 +1,11 @@
+  392  cp /datasets/taxidata.tar.gz .
+  394  tar zxvf taxidata.tar.gz
+  399  gunzip taxidata.tar.gz
+  411  touch results.txt
+  413  mkdir ws2
+  415  cd taxidata
+  428  touch results.txt
+  430  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | tail -n 20 > results.txt
+  434  wc -l ".*,.*,\"2019-03-12.*" 2019-03.csv
+  437  echo "7832546 total" >> results.txt
+  439  history > cmds.log
