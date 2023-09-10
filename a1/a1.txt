@@ -1,0 +1,17 @@
+2) My home directory path is /mnt/scratch/angie23fa/a1. The command used was pwd.
+
+3) My UID is 1004. I belong to the group angie23fa. I used the command nano /etc/passwd.
+
+4) From the temp directory I am not allowed to cd in that directory. "ls" and "ls -l" is allowed. New files cannot be created.
+
+5) I am allowed to "mv" the "temp2" directory to "temp3" directory. It is not allowed to "cp" a directory. To cp an entire directory I have to use "cp -R" option.
+
+6) The file under directory /proc/ that contains information about memory is meminfo. The file that contains information about the cpu is cpuinfo.
+
+7) The total memory on my server is 73080512 kB.
+
+8) There are 255 processors on the server. The processor architecture name is POWER8 (architected), altivec supported. The processor speed is 3.425GHz.
+
+9) The operating system is 8.6 (Oopta). The file under /etc/ that contains this information is os-release. 
+
+10) The permission for the file containing the OS version information is read, write, and execute.

@@ -1,0 +1,35 @@
+  546  mkdir a1
+  547  ls
+  548  cd a1
+  549  touch a1.txt
+  551  pwd
+  553  nano /etc/passwd
+  554  nano /etc/group
+  561  mkdir temp
+  562  man
+  563  chmod
+  564  chmod --help
+  565  ls
+  566  chmod -x temp
+  567  ls
+  568  cd temp
+  580  ls temp
+  581  ls -l temp
+  583  mkdir temp2
+  585  mkdir temp3
+  587  mv temp2 temp3
+  588  ls
+  589  cd temp3
+  591  cp temp2 temp3
+  595  cd /proc
+  596  ls
+  599  cd /etc
+  600  ls
+  601  cat /etc/os-release
+  602  ls -l
+  607  cd a1
+  618  head /proc/meminfo
+  619  head /proc/cpuinfo
+  620  tail /proc/cpuinfo
+  621  cat /proc/cpuinfo
+  627  history > cmds.log
