@@ -1,0 +1,29 @@
+  663  cut -f 8 -d, 2019-01.csv >> allpuloc.txt
+  680  touch sortallpuloc.txt
+  682  sort -nr allpuloc.txt >> sortallpuloc.txt
+  694  touch uniq2puloc.txt
+  703  uniq -c sortallpuloc.txt >> uniq2puloc.txt
+  704  head uniq2puloc.txt
+  712  touch sort2allpuloc.txt
+  714  sort -nr uniq2puloc.txt >> sort2allpuloc.txt
+  715  head sort2allpuloc.txt
+  716  cd
+  717  ls
+  718  mkdir ws3
+  724  cd
+  726  cd taxidata
+  728  head sort2allpuloc.txt
+  729  head sort2allpuloc.txt > ws3.txt
+  730  ls
+  731  cat ws3.txt
+  739  cd
+  741  cd taxidata
+  743  cut -f 8 -d, 2019-02.csv | sort -nr | uniq -c >> febpoppulo.txt
+  744  ls
+  746  head febpoppulo.txt
+  747  sort -nr febpoppulo.txt >> sortfebpoppulo.txt
+  748  head sortfebpoppulo.txt
+  749  head sortfebpoppulo.txt >> ws3.txt
+  750  ls
+  751  cat ws3.txt
+  752  history > cmds.log

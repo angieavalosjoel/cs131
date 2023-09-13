@@ -1,0 +1,31 @@
+Task 1:
+After using cut -f 8 -d to print the pickup locations, sort -nr to print them in reverse order, uniq -c to print how many times each line appears, and sorting them again using sort -nr, I used the head command to print out this data shown:
+  
+ 332473 237.0
+ 323008 236.0
+ 312392 161.0
+ 277166 162.0
+ 263646 230.0
+ 260712 186.0
+ 240903 48.0
+ 238978 170.0
+ 237648 234.0
+ 235144 142.0
+On the right, are the pickup location IDs and on the left, are how many times they appear in the 2019-01.csv file 
+The top 3 locations for January 2019 are 237.0, 236.0, and 161.0.
+
+Task 2:
+After using the same process as task one on the 2019-02.csv file for task 2, the following data was shown:
+
+ 294584 237.0
+ 286773 161.0
+ 280640 236.0
+ 254410 162.0
+ 247035 186.0
+ 239988 230.0
+ 223630 48.0
+ 222211 234.0
+ 220025 170.0
+ 216012 142.0
+
+The top 3 pickup locations for February 2019 are 237.0, 161.0, and 236.0.
