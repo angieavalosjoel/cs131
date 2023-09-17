@@ -1,0 +1,13 @@
+  801  cd taxidata
+  803  mkdir ws4
+  805  cd ws4
+  807  mkdir FARE
+  809  cd
+  811  cd taxidata
+  812  ls
+  813  head 2019-06.csv
+  828  cd ws4
+  830  echo "2.5" > FARE/262.0-263.0.txt
+  841  echo "17.5" > FARE/74.0-7.0.txt
+  861  echo "(17.5+2.5)/2" | bc >> ws4.txt
+  865  history > cmds.log
