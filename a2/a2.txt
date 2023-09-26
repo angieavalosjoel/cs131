@@ -1,0 +1,65 @@
+Task 1:
+
+The average amount paid by customers who were picked up on May 11, 2019:
+
+  17.8655
+
+Task 2:
+
+The highest total amount paid by customers who were picked up on May 11, 2019: 1309.8
+
+  1309.8
+  600.3
+  410.92
+  400.3
+  360.36
+  350.3
+  345.3
+  326.6
+  300.8
+  291.36
+
+Task 3:
+
+10 most popular dropoff locations (May 2019) of rides with three or more customers:
+
+  39909 236.0
+  37140 237.0
+  36990 161.0
+  33678 230.0
+  28506 170.0
+  27895 162.0
+  27485 48.0
+  26782 142.0
+  25051 239.0
+  24609 234.0
+
+Task 4:
+
+Most popular dropoff location from the most popular pickup location on May 20, 2019: 236.0
+
+  1911 236.0
+  1429 237.0
+   803 161.0
+   785 162.0
+   556 141.0
+   508 140.0
+   483 142.0
+   408 263.0
+   323 163.0
+   311 238.0
+
+Task 5:
+
+Most popular (busiest) pickup location throughout the year (Jan to Dec) in 2019: 237.0
+
+  3641682 237.0
+  3450649 161.0
+  3291351 236.0
+  3046788 162.0
+  3027440 186.0
+  2900733 230.0
+  2729607 132.0
+  2678275 48.0
+  2604081 170.0
+  2534767 234.0
