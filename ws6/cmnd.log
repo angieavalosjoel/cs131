@@ -1,0 +1,14 @@
+1.)
+ sed -n '/^2.0/p' 2019-11.csv > vendor2.csv
+ wc vendor2.csv
+
+2.)
+ sed -e 's/://g' -e 's/"//g' -e 's/-//g' 2019-11.csv > no-separators.csv
+ head -10 no-separators.csv
+
+3.)
+ sed 's/\.[^,]*//g' no-separators.csv > no-fractions.csv
+ head -10 no-fractions.csv
+
+4.)
+ history > cmnd.log
