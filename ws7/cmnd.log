@@ -1,0 +1,7 @@
+ Task 1)
+
+ awk -F , ' { if ( $17+0 >= 10.0 ) print $14} ' 2019-12.csv | sort | uniq -c > results.txt 
+
+ Task 2)
+
+ sort -nr results.txt | head -20 > ws7.txt
