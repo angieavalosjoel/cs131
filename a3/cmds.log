@@ -1,0 +1,25 @@
+ Task 1.
+
+Q. Assume you were a taxi driver. You want to wait for better customers at a high-earning pickup location. Identify the top 10 pickup locations that yielded the highest average "total amount" in August 2019. Save the output to a3.txt.
+Answer the 10 locations and
+their average total amount paid by the customers
+
+A. This command gets the top 10 pickup locations
+
+ awk -F , ' { print $8 } ' 2019-08.csv | sort | uniq -c | sort -nr > a3.txt
+
+  This command gets the average total amount based on the top 10 pickup locations
+
+ awk -F , '{ if ($8 == "161.0" || $8 == "186.0" || $8 == "132.0" || $8 == "162.0" || $8 == "237.0" || $8 == "230.0" || $8 == "170.0" || $8 == "48.0" || $8 == "236.0" || $8 == "234.0") print $17}' 2019-08.csv | awk '{ total += $1 } END { print total/NR }' >> a3.txt 
+
+Task 2.
+
+Q. Which pickup and dropoff location pair recorded the highest average "total amount" in August 2019? Save the output to a3.txt.
+
+A. This command gets the top pickup and dropoff location pairs
+
+ awk -F , '{ print $8 " " $9 }' 2019-08.csv | sort | uniq -c | sort -nr > a3test.txt
+ 
+This command gets the highest average total amount based on the top pickup and dropoff location pairs
+
+awk -F , '{if ($8 == "264.0" && $9 == "264.0") print $17}' 2019-08.csv | awk '{ total += $1 } END { print total/NR }' >> a3.txt
