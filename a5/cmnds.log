@@ -1,0 +1,11 @@
+1. awk command to find average grade depending on mother's occupation
+
+	awk -F , ' { sum[$16] += $33; count[$16]++} END { for (occupation in sum) { print occupation "," sum[occupation] / count[occupation]; } } ' "DATA (1).csv" > scatter.dat
+
+2. awk command to find average grade depending on student's interest in course
+	
+	awk -F , ' { sum[$28] += $33; count[$28]++} END { for (interest in sum) { print interest "," sum[interest] / count[interest]; } } ' "DATA (1).csv" > bar.dat
+
+vim bar.plt
+vim scatter.plt
+gnuplot
